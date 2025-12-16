@@ -32,12 +32,22 @@ s9_ = 32   # valid
 
 # Operators
 # Arithmetic operators
-a = 1
+a = 10
 b = 3 
-c = a + b 
-d = b - a
+c = a + b  # sum
+d = a - b  # difference
+e = a / b   # division
+f = a // b   # double divison
+g = a % b   # modulus
+h = a * b   # multiply
+i = a ** b   # exponentiation or power it can be used for square, cube etc
 print(c)
 print(d)
+print(e)
+print(f)
+print(g)
+print(h)
+print(i)
 
 # Assignment operators
 a = 4-2 # assign 4-2 in a 
@@ -47,6 +57,23 @@ b = 6
 b += 3  # Increment the value of b by 3 and then assign it to b  
 b -= 3  # Decrement the value of b by 3 and then assign it to b 
 print(b)
+
+c = 10
+c *= 5
+print(c)
+
+d = 5
+d /= 10
+print(d)
+
+e = 15
+e %= 5
+print(e)
+
+f = 5
+f **= 2
+print(f)
+
 
 # Comparison operators
 d = 5==5
@@ -87,6 +114,15 @@ print("False and False is", False and False)
 print(not(True))
 print(not(False))
 
+# Membership operator
+name = "simra is a girl"
+print('girl' in name )    # here 'in' is to check the word if it's exist or not the answer will be in boolean 
+
+
+# Operator precedence
+a = 10 + 3 * 2 ** 2 
+print(a)
+
 
 # Type() Function to know the type of a variable
 a = 31
@@ -101,7 +137,7 @@ a = "simra"
 t = type(a)  # class <str>
 print(t)
 
-# Convert one type to another
+# Type conversion and type casting 
 a = "13.2"
 b = float(a) # a is a string but the type should be float
 t = type(b)   # string to float conversion
@@ -111,6 +147,10 @@ a = 31.2
 b = int(a)  # float to integer conversion
 t = type(b)
 print(t)
+
+a = 10.5
+a = str(a)   # float to string casting
+print(type(a))
 
 # Input numbers
 a = input ("Enter number 1: ")
@@ -125,3 +165,13 @@ b = int(input ("Enter number 2: "))
 print("Number a is: ", a)   # a is 45
 print("Number b is: ", b)   # b is 25
 print("Sum is ", a + b)    # sum is 70 
+
+price = float(input("Enter the price: "))
+print(type(price), " the price is ", price)
+
+name = input("Enter name: ")
+age = int(input("Enter age: "))
+marks = float(input("Enter marks: "))
+print("Welcome", name)
+print("age = " ,age)
+print("marks = ", marks)
