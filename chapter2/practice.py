@@ -62,3 +62,16 @@ print(" the average is ", (first + second)/2)
 a = int(input("Enter number 1: "))
 b = int(input("Enter number 2: "))
 print("a is greater than or equal to b = ", a >= b ) 
+
+# Problem11
+# Ask user to put their weight in pounds and convert it into kgs
+weight = float(input(" Enter your weight in pounds: "))
+weight_kg = weight * 0.453592
+print(f"your weight is  {weight_kg}  kg.")
+
+# Do the same just convert from kgs to lbs 
+weight = float(input(" Enter your weight in kg: "))
+weight_lbs = weight * 2.20462
+print(f"your weight is  {round(weight_lbs, 2)}  lbs.")
+
+#Problem12
