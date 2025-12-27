@@ -45,5 +45,5 @@ print(sets)
 # pop() removes random value from the set
 s1 = {1, 5, 34, 6}
 s2 = {1, 5, 35, 7}  
-print(s1.union(s2))   # Union gives all the values from both sets but not repeated ones
+print(s1.union(s2))   # Union gives unique values from both sets but not repeated ones
 print(s1.intersection(s2))  #Intersection gives same values from both sets

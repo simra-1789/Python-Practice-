@@ -74,4 +74,90 @@ weight = float(input(" Enter your weight in kg: "))
 weight_lbs = weight * 2.20462
 print(f"your weight is  {round(weight_lbs, 2)}  lbs.")
 
-#Problem12
+#Problem1
+# Write a Python program to take two numbers from the user and print their sum, difference, product, and division.
+num1 = int(input("Enter number 1: "))
+num2 = int(input("Enter number 2: "))
+
+sum = num1 + num2
+difference = num1 - num2
+product = num1 * num2
+division = num1 / num2
+
+print(sum)
+print(difference)
+print(product)
+print(division)
+
+#Problem2
+# Take a number from the user and print:
+# the number
+# its data type using type()
+Num = float(input("Enter number: "))
+print(Num, type(Num))
+
+#Problem3
+# Take a string input from the user and print:
+# the value
+# its data type
+# Then convert it into an integer and print the new value and its data type.
+value = input("Enter value: ")
+print(value, type(value))
+newvalue = int(input("Enter value: "))
+print(newvalue, type(newvalue))
+
+#Problem4
+# Write a program to check whether a number entered by the user is greater than 50 or not.
+# (Print True or False)
+a = int(input("Enter number: "))
+b = a > 50
+print(b)
+
+#Problem5
+#Take two integers from the user and check:
+# whether the first number is greater than the second
+# whether both numbers are equal
+no1 = int(input("Enter number 1: "))
+no2 = int(input("Enter number 2: "))
+
+greater = no1 > no2
+equal = no1 == no2
+
+print(greater)
+print(equal)
+
+#Problem6
+# Write a program to find the remainder when a number is divided by 7.
+c = int(input("Enter number: "))
+d = c % 7
+print("the remainder is: ", d)
+
+#Problem7
+# Take a number from the user and print its square and cube.
+e = int(input("Enter number: "))
+f = e ** 2
+g = e ** 3
+print("the square is: ", f)
+print("the cube is: ", g)
+
+#Problem8
+# Take two numbers from the user and print their average.
+h = int(input("Enter number: "))
+i = int(input("Enter number: "))
+
+print(" the average of number is: ", (h + i)/2)
+
+#Problem9
+# Take a number as input and convert it into:# float # string # Print each value with its data type.
+j = int(input("Enter number: "))
+k = float(j)
+l = str(j)
+
+print(k, type(k))
+print(l, type(l))
+
+#Problem10
+# Write a program that takes the user’s age as input and checks whether the age is greater than or equal to 18.
+age = int(input("Enter your age: "))
+age1 = age >= 18
+print("age is greater than or equal to 18:", age1)
